@@ -20,22 +20,21 @@ When the state is estimated, the resulted errors of the MCC-KF implementation me
 
 # List of the MCC-KF implementation methods
 ### Riccati recursion-based KF implementation methods:
-Conventional algorithms:
- -  `@Riccati_MCCKF_standard` is the Conventional implementation in one-step condensed form by Kulikova (2019), <a href="http://doi.org/10.1109/ICSTCC.2019.8885950">DOI</a>
+- Conventional algorithms:
+  -  `@Riccati_MCCKF_standard` is the Conventional implementation in one-step condensed form by Kulikova (2019), <a href="http://doi.org/10.1109/ICSTCC.2019.8885950">DOI</a>
 
 # List of the IMCC-KF implementation methods
 ### Riccati recursion-based KF implementation methods:
-Conventional algorithms:
- -  `@Riccati_IMCCKF_standard` is the condensed form by Kulikova (2019), <a href="http://doi.org/10.1109/ICSTCC.2019.8885950">DOI</a>
+- Conventional algorithms:
+  -  `@Riccati_IMCCKF_standard` is the condensed form by Kulikova (2019), <a href="http://doi.org/10.1109/ICSTCC.2019.8885950">DOI</a>
+- Square-root algorithms by using Cholesky factorization:
+  -  `Riccati_IMCCKF_SRCF_QL`   is the Square-Root Covariance Filter (SRCF) with lower triangular factors by Kulikova (2019), <a href="http://doi.org/10.1109/ICSTCC.2019.8885950">DOI</a>
+  -  `Riccati_IMCCKF_eSRCF_QL`  is the Extended SRCF with lower triangular factors by Kulikova (2019), <a href="http://doi.org/10.1109/ICSTCC.2019.8885950">DOI</a>
    
-Square-root algorithms by using Cholesky factorization:
- -  `Riccati_IMCCKF_SRCF_QL`   is the Square-Root Covariance Filter (SRCF) with lower triangular factors by Kulikova (2019), <a href="http://doi.org/10.1109/ICSTCC.2019.8885950">DOI</a>
- -  `Riccati_IMCCKF_eSRCF_QL`  is the Extended SRCF with lower triangular factors by Kulikova (2019), <a href="http://doi.org/10.1109/ICSTCC.2019.8885950">DOI</a>
- -  
 ### Chandrasekhar recursion-based KF implementation methods:
-Conventional algorithms:
--  `@Chandrasekhar_IMCCKF1` is the Conventional implementation by Kulikova (2020), <a href="https://doi.org/10.1109/TAC.2019.2919341">DOI</a>
--  `@Chandrasekhar_IMCCKF2` is the Conventional implementation by Kulikova (2020), <a href="https://doi.org/10.1109/TAC.2019.2919341">DOI</a>
--  `@Chandrasekhar_IMCCKF3` is the Conventional implementation by Kulikova (2020), <a href="https://doi.org/10.1109/TAC.2019.2919341">DOI</a>
--  `@Chandrasekhar_IMCCKF4` is the Conventional implementation by Kulikova (2020), <a href="https://doi.org/10.1109/TAC.2019.2919341">DOI</a>
+- Conventional algorithms:
+ -  `@Chandrasekhar_IMCCKF1` is the Conventional implementation by Kulikova (2020), <a href="https://doi.org/10.1109/TAC.2019.2919341">DOI</a>
+ -  `@Chandrasekhar_IMCCKF2` is the Conventional implementation by Kulikova (2020), <a href="https://doi.org/10.1109/TAC.2019.2919341">DOI</a>
+ -  `@Chandrasekhar_IMCCKF3` is the Conventional implementation by Kulikova (2020), <a href="https://doi.org/10.1109/TAC.2019.2919341">DOI</a>
+ -  `@Chandrasekhar_IMCCKF4` is the Conventional implementation by Kulikova (2020), <a href="https://doi.org/10.1109/TAC.2019.2919341">DOI</a>
 
