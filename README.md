@@ -33,8 +33,8 @@ When the state is estimated, the resulted errors of the MCC-KF implementation me
    
 ### Chandrasekhar recursion-based KF implementation methods:
 - Conventional algorithms:
- -  `Chandrasekhar_IMCCKF1` is the Conventional implementation by Kulikova (2020), <a href="https://doi.org/10.1109/TAC.2019.2919341">DOI</a>
- -  `Chandrasekhar_IMCCKF2` is the Conventional implementation by Kulikova (2020), <a href="https://doi.org/10.1109/TAC.2019.2919341">DOI</a>
- -  `Chandrasekhar_IMCCKF3` is the Conventional implementation by Kulikova (2020), <a href="https://doi.org/10.1109/TAC.2019.2919341">DOI</a>
- -  `Chandrasekhar_IMCCKF4` is the Conventional implementation by Kulikova (2020), <a href="https://doi.org/10.1109/TAC.2019.2919341">DOI</a>
+  - `Chandrasekhar_IMCCKF1` is the Conventional implementation by Kulikova (2020), <a href="https://doi.org/10.1109/TAC.2019.2919341">DOI</a>
+  - `Chandrasekhar_IMCCKF2` is the Conventional implementation by Kulikova (2020), <a href="https://doi.org/10.1109/TAC.2019.2919341">DOI</a>
+  - `Chandrasekhar_IMCCKF3` is the Conventional implementation by Kulikova (2020), <a href="https://doi.org/10.1109/TAC.2019.2919341">DOI</a>
+  - `Chandrasekhar_IMCCKF4` is the Conventional implementation by Kulikova (2020), <a href="https://doi.org/10.1109/TAC.2019.2919341">DOI</a>
 
