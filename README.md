@@ -35,10 +35,10 @@ When the state is estimated, the resulted errors of the MCC-KF implementation me
 **Chandrasekhar recursion-based IMCC-KF implementation methods:**
 | Function | Description |
 | ---: | :--- |
-| `Chandrasekhar_IMCCKF1` | Conventional implementation by Kulikova (2020)[^4]|
-| `Chandrasekhar_IMCCKF2` | Conventional implementation by Kulikova (2020)[^4]|
-| `Chandrasekhar_IMCCKF3` | Conventional implementation by Kulikova (2020)[^4]|
-| `Chandrasekhar_IMCCKF4` | Conventional implementation by Kulikova (2020)[^4]|
+| `Chandrasekhar_IMCCKF1` | Conventional implementation in Algorithm 1 by Kulikova (2020)[^4]|
+| `Chandrasekhar_IMCCKF2` | Conventional implementation in Algorithm 2 by Kulikova (2020)[^4]|
+| `Chandrasekhar_IMCCKF3` | Conventional implementation in Algorithm 3 by Kulikova (2020)[^4]|
+| `Chandrasekhar_IMCCKF4` | Conventional implementation in Algorithm 4 by Kulikova (2020)[^4]|
 
 [^1]: Izanloo, R. and Fakoorian, S.A. and Yazdi, H.S. and Simon D. (2016) Kalman filtering based on the maximum correntropy criterion in the presence of non-Gaussian noise, in: 2016 Annual Conference on Information Science and Systems (CISS), 2016, pp. 500-505. <a href="https://doi.org/10.1109/CISS.2016.7460553">DOI</a>
 [^2]: Kulikova, M.V. (2017) Square-root algorithms for maximum correntropy estimation of linear discrete-time systems in presence of non-Gaussian noise. Systems and Control Letters, 108: 8-15. <a href="https://doi.org/10.1016/j.sysconle.2017.07.016">DOI</a>, <a href="https://arxiv.org/abs/1611.03686">PDF on ArXiv</a>
