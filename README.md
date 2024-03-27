@@ -21,7 +21,7 @@ When the state is estimated, the resulted errors of the MCC-KF implementation me
 ## List of the MCC-KF implementation methods
 ### Riccati recursion-based KF implementation methods:
 - Conventional algorithms:
-  -  `Riccati_MCCKF_standard` is the Conventional implementation in one-step condensed form by Kulikova (2019)[^1]
+  -  `Riccati_MCCKF_standard` is the Conventional implementation in one-step condensed form by Kulikova (2019)[^3]
 
 # List of the IMCC-KF implementation methods
 ### Riccati recursion-based KF implementation methods:
