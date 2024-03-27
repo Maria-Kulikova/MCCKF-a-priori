@@ -32,13 +32,15 @@ When the state is estimated, the resulted errors of the MCC-KF implementation me
 | `Riccati_IMCCKF_SRCF_QL` | Square-Root Covariance Filter (SRCF) with lower triangular factors by Kulikova (2019)[^3]|
 | `Riccati_IMCCKF_eSRCF_QL` | Extended Square-Root Covariance Filter (SRCF) with lower triangular factors by Kulikova (2019)[^3]|
    
-### Chandrasekhar recursion-based KF implementation methods:
-- Conventional algorithms:
-  - `Chandrasekhar_IMCCKF1` is the Conventional implementation by Kulikova (2020), <a href="https://doi.org/10.1109/TAC.2019.2919341">DOI</a>, <a  href="https://arxiv.org/abs/2311.01165">ArXiv</a>
-  - `Chandrasekhar_IMCCKF2` is the Conventional implementation by Kulikova (2020), <a href="https://doi.org/10.1109/TAC.2019.2919341">DOI</a>, <a  href="https://arxiv.org/abs/2311.01165">ArXiv</a>
-  - `Chandrasekhar_IMCCKF3` is the Conventional implementation by Kulikova (2020), <a href="https://doi.org/10.1109/TAC.2019.2919341">DOI</a>, <a  href="https://arxiv.org/abs/2311.01165">ArXiv</a>
-  - `Chandrasekhar_IMCCKF4` is the Conventional implementation by Kulikova (2020), <a href="https://doi.org/10.1109/TAC.2019.2919341">DOI</a>, <a  href="https://arxiv.org/abs/2311.01165">ArXiv</a>
+**Chandrasekhar recursion-based IMCC-KF implementation methods:**
+| Function | Description |
+| ---: | :--- |
+| `Chandrasekhar_IMCCKF1` | Conventional implementation by Kulikova (2020)[^4]|
+| `Chandrasekhar_IMCCKF2` | Conventional implementation by Kulikova (2020)[^4]|
+| `Chandrasekhar_IMCCKF3` | Conventional implementation by Kulikova (2020)[^4]|
+| `Chandrasekhar_IMCCKF4` | Conventional implementation by Kulikova (2020)[^4]|
 
 [^1]: Izanloo, R. and Fakoorian, S.A. and Yazdi, H.S. and Simon D. (2016) Kalman filtering based on the maximum correntropy criterion in the presence of non-Gaussian noise, in: 2016 Annual Conference on Information Science and Systems (CISS), 2016, pp. 500-505. <a href="https://doi.org/10.1109/CISS.2016.7460553">DOI</a>
-[^2]: Kulikova M.V. (2017) Square-root algorithms for maximum correntropy estimation of linear discrete-time systems in presence of non-Gaussian noise. Systems and Control Letters, 108: 8-15. <a href="https://doi.org/10.1016/j.sysconle.2017.07.016">DOI</a>, <a href="https://arxiv.org/abs/1611.03686">PDF on ArXiv</a>
+[^2]: Kulikova, M.V. (2017) Square-root algorithms for maximum correntropy estimation of linear discrete-time systems in presence of non-Gaussian noise. Systems and Control Letters, 108: 8-15. <a href="https://doi.org/10.1016/j.sysconle.2017.07.016">DOI</a>, <a href="https://arxiv.org/abs/1611.03686">PDF on ArXiv</a>
 [^3]: Kulikova, M.V. (2019) One-Step Condensed Forms for Square-Root Maximum Correntropy Criterion Kalman Filtering, Proceedings of the 23rd International Conference on System Theory, Control and Computing (ICSTCC),  Sinaia, Romania, pp. 13-18. <a href="http://doi.org/10.1109/ICSTCC.2019.8885950">DOI</a>, <a href="https://arxiv.org/abs/2310.18750">PDF on ArXiv</a>
+[^4]:  Kulikova, M.V. (2020) Chandrasekhar-based maximum correntropy Kalman filtering with the adaptive kernel size selection. IEEE Transactions on Automatic Control, 65(2): 741-748.  <a href="https://doi.org/10.1109/TAC.2019.2919341">DOI</a>, <a  href="https://arxiv.org/abs/2311.01165">PDF on ArXiv</a>
