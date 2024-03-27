@@ -3,7 +3,7 @@ This repository contains MATLAB functions with various implementation methods of
 
 ## References
 Each code (implementation method) includes the exact reference where the particular algorithm was published. 
-If you use these codes in your research, please, cite the corresponding articles mentioned in the codes.  
+If you use these codes in your research, please, cite the corresponding articles mentioned in the codes or in the list below.  
 
 ## Remark
 The codes have been presented here for their instructional value only. They have been tested with care but are not guaranteed to be free of error and, hence, they should not be relied on as the sole basis to solve problems. 
