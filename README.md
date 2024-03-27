@@ -19,18 +19,18 @@ The codes have been presented here for their instructional value only. They have
 When the state is estimated, the resulted errors of the MCC-KF implementation methods should be the same because they are mathematically equivalent to each other. Their numerical properties differ, but the ill-conditioned test examples are not given here. Similarly, the resulted errors of the IMCC-KF implementation methods should be the same because they are mathematically equivalent to each other. 
 
 # List of the MCC-KF implementation methods 
-**Riccati recursion-based KF implementation methods:**
+**Riccati recursion-based MCC-KF implementation methods:**
 | Function | Description |
 | ---: | :--- |
-| `Riccati_MCCKF_standard` |  the Conventional implementation in one-step condensed form by Kulikova (2019)[^3]|
+| `Riccati_MCCKF_standard` | Conventional implementation in one-step condensed form by Kulikova (2019)[^3]|
 
 # List of the IMCC-KF implementation methods
-**Riccati recursion-based KF implementation methods:**
-- Conventional algorithms:
-  -  `Riccati_IMCCKF_standard` is the condensed form by Kulikova (2019), <a href="http://doi.org/10.1109/ICSTCC.2019.8885950">DOI</a>, <a href="https://arxiv.org/abs/2310.18750">ArXiv</a>
-- Square-root algorithms by using Cholesky factorization:
-  -  `Riccati_IMCCKF_SRCF_QL`   is the Square-Root Covariance Filter (SRCF) with lower triangular factors by Kulikova (2019), <a href="http://doi.org/10.1109/ICSTCC.2019.8885950">DOI</a>, <a href="https://arxiv.org/abs/2310.18750">ArXiv</a>
-  -  `Riccati_IMCCKF_eSRCF_QL`  is the Extended SRCF with lower triangular factors by Kulikova (2019), <a href="http://doi.org/10.1109/ICSTCC.2019.8885950">DOI</a>, <a href="https://arxiv.org/abs/2310.18750">ArXiv</a>
+**Riccati recursion-based IMCC-KF implementation methods:**
+| Function | Description |
+| ---: | :--- |
+| `Riccati_IMCCKF_standard` | Conventional implementation in one-step condensed form by Kulikova (2019)[^3]|
+| `Riccati_IMCCKF_SRCF_QL` | Square-Root Covariance Filter (SRCF) with lower triangular factors by Kulikova (2019)[^3]|
+| `Riccati_IMCCKF_eSRCF_QL` | Extended Square-Root Covariance Filter (SRCF) with lower triangular factors by Kulikova (2019)[^3]|
    
 ### Chandrasekhar recursion-based KF implementation methods:
 - Conventional algorithms:
