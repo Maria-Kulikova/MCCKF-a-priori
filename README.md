@@ -1,11 +1,11 @@
 # Condensed MCC-KF and IMCC-KF implementation methods
 This repository contains MATLAB functions with various implementation methods of discrete-time Maximum Correntropy Criterion Kalman Filter (MCC-KF) by Izanloo et.al. (2016, <a href="https://doi.org/10.1109/CISS.2016.7460553">DOI</a>) and improved MCC-KF (IMCC-KF) by Kulikova (2017, <a href="https://doi.org/10.1016/j.sysconle.2017.07.016">DOI</a>, <a href="https://arxiv.org/abs/1611.03686">ArXiv</a>) with a scalar adjusting parameter. They are given in a priori form (the predicted form), i.e., the first measurement is available at the initial step and, hence, the measurement update stage comes first. All such methods can be written in the so-called condensed form, i.e., without division on the time and measurement updates. Thus, only condensed algorithms are mentioned in this repository. Two-stage implementations can be easily obtained from algorithms <a href="https://github.com/Maria-Kulikova/MCCKF-a-posteriori">here</a>.
 
-### References
+## References
 Each code (implementation method) includes the exact reference where the particular algorithm was published. 
 If you use these codes in your research, please, cite the corresponding articles mentioned in the codes.  
 
-### Remark
+## Remark
 The codes have been presented here for their instructional value only. They have been tested with care but are not guaranteed to be free of error and, hence, they should not be relied on as the sole basis to solve problems. 
 
 # Steps to reproduce
@@ -18,10 +18,10 @@ The codes have been presented here for their instructional value only. They have
 
 When the state is estimated, the resulted errors of the MCC-KF implementation methods should be the same because they are mathematically equivalent to each other. Their numerical properties differ, but the ill-conditioned test examples are not given here. Similarly, the resulted errors of the IMCC-KF implementation methods should be the same because they are mathematically equivalent to each other. 
 
-### List of the MCC-KF implementation methods
+## List of the MCC-KF implementation methods
 ### Riccati recursion-based KF implementation methods:
 - Conventional algorithms:
-  -  `Riccati_MCCKF_standard` is the Conventional implementation in one-step condensed form by Kulikova (2019), <a href="http://doi.org/10.1109/ICSTCC.2019.8885950">DOI</a>, <a href="https://arxiv.org/abs/2310.18750">ArXiv</a>
+  -  `Riccati_MCCKF_standard` is the Conventional implementation in one-step condensed form by Kulikova (2019)[^1]
 
 # List of the IMCC-KF implementation methods
 ### Riccati recursion-based KF implementation methods:
@@ -38,3 +38,4 @@ When the state is estimated, the resulted errors of the MCC-KF implementation me
   - `Chandrasekhar_IMCCKF3` is the Conventional implementation by Kulikova (2020), <a href="https://doi.org/10.1109/TAC.2019.2919341">DOI</a>, <a  href="https://arxiv.org/abs/2311.01165">ArXiv</a>
   - `Chandrasekhar_IMCCKF4` is the Conventional implementation by Kulikova (2020), <a href="https://doi.org/10.1109/TAC.2019.2919341">DOI</a>, <a  href="https://arxiv.org/abs/2311.01165">ArXiv</a>
 
+[^1]: Kulikova (2019) One-Step Condensed Forms for Square-Root Maximum Correntropy Criterion Kalman Filtering, Proceedings of the 23rd International Conference on System Theory, Control and Computing (ICSTCC),  Sinaia, Romania, pp. 13-18.  <a href="http://doi.org/10.1109/ICSTCC.2019.8885950">DOI</a>, <a href="https://arxiv.org/abs/2310.18750">PDF on ArXiv</a>
